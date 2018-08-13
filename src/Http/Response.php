@@ -67,4 +67,10 @@ class Response
     {
         http_response_code($code);
     }
+
+    public function setSessionAttribute($key, $value)
+    {
+        $this->response['sessionAttributes'][$key] = $value;
+        return $this;
+    }
 }

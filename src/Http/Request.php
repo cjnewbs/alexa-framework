@@ -227,4 +227,14 @@ class Request
         }
         return false;
     }
+
+    public function getSessionAttributes()
+    {
+        return $this->requestBody['session']['attributes'];
+    }
+
+    public function getSessionAttribute($key)
+    {
+        return $this->requestBody['session']['attributes'][$key];
+    }
 }
