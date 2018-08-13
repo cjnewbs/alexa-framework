@@ -2,7 +2,7 @@
   "name": "newbury/alexa-framework",
   "description": "Simple framework for creating Amazon Alex skills using PHP.",
   "type": "library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": [
     "MIT"
   ],
